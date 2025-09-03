@@ -14,7 +14,7 @@ Why? Javier Tebas.
 
 ## Usage
 ```bash
-./pwnbll <port> <endpoint>
+pwnbll <port> <endpoint>
 ```
 
 ---
