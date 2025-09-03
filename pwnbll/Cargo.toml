@@ -1,0 +1,15 @@
+[package]
+name = "pwnbll"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+tiny_http = "0.12.0"
+
+[package.metadata.deb]
+maintainer = "Samoxiaki <samoxiaki@yahoo.com>"
+section = "utils"
+priority = "optional"
+assets = [
+    ["target/release/pwnbll", "usr/bin/", "755"]
+]
